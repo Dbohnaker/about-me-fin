@@ -1,0 +1,260 @@
+header{
+	background-image: url(DSC00744.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: white;
+	padding-bottom: 70px;
+}
+body {
+			background-color: lightgrey;
+			margin: 0 auto;
+			text-align: center;
+}
+h1 {
+	text-align: right;
+	font-family: Comic Sans MS cursive;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 70px;
+	position: relative;
+}
+#icon {
+	width: 100px;
+	height: 100px;
+	border-top: 10px groove silver;
+	border-bottom: 10px groove lightblue;	
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	border-radius: 50%;
+}
+#logo{
+	text-decoration: none;
+	color: black;
+	width: 200px;
+	top: 0;
+	left: 5px;
+}
+.nav{
+	border-bottom: 1px solid #EAEAEB;
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	display: inline;
+}
+.menu{
+	margin: 0 30px 0 0;
+	color: white;
+}
+.menu a{
+	clear: both;
+	text-decoration: none;
+	color: grey;
+	margin: 0 10px;
+	line-height: 70px;
+	padding: 14px 16px;
+	text-shadow: 2px 2px black;
+	 color: white;
+}
+label{
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: right;
+}
+#toggle{
+	display: none;
+}
+.menu a:hover:not(.active) {
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+#social{
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	border-bottom: 2px solid white;
+}
+#IG{
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+}
+#FB{
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+}
+#setup{
+	text-align: left;
+	margin: 10px;
+	text-shadow: 2px 2px white;
+}
+#Zeus{
+	text-indent: 20px;
+	font-family: "times new roman";
+	font-size: 20px;
+}
+#Atlas{
+	text-indent: 25px;
+	font-family: "times new roman";
+	font-size: 20px;
+}
+h3{
+	margin: 25px;
+	text-decoration: underline;
+	text-shadow: 2px 2px white;
+}
+#lpic{
+	width: 100%;
+	height: 450px;
+	padding: 20px 0 20px 0;
+	margin: 0 10px 0 10px;
+
+}
+#latest{
+	font-family: "times new roman";
+	font-size: 20px;
+	margin: 20px;
+}
+#zpic{
+	margin: 10px;
+	width: 250px;
+	height: 200px;
+	float: right;
+}
+#apic{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+/*about me*/
+#About{
+	text-align: center;
+	text-indent: 30px;
+	position: static;
+	background-image: url(DSC01467.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 350px;
+	background-repeat: no-repeat;
+	margin: 0;
+}	
+#aheading{
+	color: white;
+	text-shadow: 2px 2px lightblue;
+	text-decoration: underline white;
+	font-size: 40px;
+}		
+#hobbies{
+	color: black;
+}
+p{
+	font-family: times new roman;
+}
+ol {
+	list-style-type: none;
+	color: white;
+	background-color: lightblue;
+	padding: 15px;
+}
+#para{
+	font-size: 18px;
+	color: black;
+	border: solid 2px white;
+	text-indent: 20px;
+	padding: 5px;
+}
+#para2{
+	border: solid 2px white;
+	padding: 5px;
+}
+h2{
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+}
+#wit{
+	text-align: left;
+	color: white;
+	text-decoration: underline black;
+}
+#ms{
+	font-size: 20px;
+	color: white
+}
+#idk{
+	color: black;
+}
+li { 
+	font-size: 25px;
+	text-decoration: underline;
+}
+#vid { 
+	font-size: 20px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid lightblue 15px;
+}
+#vidt{
+ 	background-color:white;
+}
+iframe {
+	align-content: center;
+	width: 100%
+}
+/*gallery*/
+#Me{
+	width: 300px;
+	height: 200px;
+	padding: 5px;
+	box-shadow: 10px 5px lightblue;
+}
+#pic{
+	width: 300px;
+	height: 400px;
+	padding: 5px;
+	box-shadow: 10px 5px lightblue;
+}
+@media all and (max-width: 600px){
+#vid{
+	width: 100%;
+}
+#Me{
+	width: 75%;
+	height: auto;
+}
+#pic{
+	width: 75%;
+	height: auto;
+}
+}
+@media only screen and (max-width: 600px) {
+label {
+
+	display: block;
+	cursor: pointer;
+	color: white;
+}
+.menu {
+	text-align: center;
+	width: 100%;
+	display: none;
+
+}
+.menu a {
+	display: block;
+	border-bottom: 1px solid #EAEAEB;
+	margin: 0;
+	color: white;
+}
+#toggle:checked + .menu {
+	display: block;
+}
+}
